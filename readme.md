@@ -1,5 +1,5 @@
 # Project Description
-Crawler using python scrapy to scrape books from allitebooks.com
+Crawler using python scrapy to scrape all books from allitebooks.com
 * Crawl books and its cover images.
 * Each book is in the directory that is named by title.
 
