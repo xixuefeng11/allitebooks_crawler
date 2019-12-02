@@ -57,7 +57,7 @@ class AllitebooksspiderSpider(scrapy.Spider):
             yield scrapy.Request(book_link, callback=self.parse_book_page)
 
         for page in range(pages, 1, -1):
-            page_link = "{}/page/{}".format(base_url, page+1)
+            page_link = "{}/page/{}".format(base_url, page)
             yield scrapy.Request(page_link, callback=self.parse_page)
 
 
